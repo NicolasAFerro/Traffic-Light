@@ -10,12 +10,14 @@
     <div class="container">
       <div class="semaforo">
         <div class="panel">
-          <div class="light red"></div>
-          <div class="light light-off"></div>
-          <div class="light light-off"></div>
+          <div id="red" class="light light-off"></div>
+          <div id="yellow" class="light yellow-on"></div>
+          <div id="green" class="light light-off"></div>
         </div>
       </div>
-      <button>Click Me!</button>
+      <button onclick="changeLight()">Click Me!</button>
     </div>
+
+    <script src="javascript.js"></script>
   </body>
 </html>
